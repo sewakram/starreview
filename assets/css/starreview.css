@@ -1,0 +1,141 @@
+
+.comment-respond {box-shadow: 0px 0px 16px 0px #ccc;padding: 20px;}
+
+.therating {
+    max-width: 365px;
+    border: aliceblue;
+    padding: 0;
+    margin-bottom:8px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.therating .label {
+    padding-top: 3px;
+    display: block;
+    width: auto;
+    float: left;
+    font-weight: bold;
+
+}
+
+.therating input[type="radio"], .therating label.stars {
+    float: right;
+    line-height: 30px;
+    height: 30px;
+}
+
+.therating input[type="radio"] {
+    padding-right: 4px;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 10px;
+}
+
+
+input[type=radio] {
+    width: auto;
+    margin-right: 5px;}
+
+.rateval .therating label.stars {
+    background: transparent url(../../assets/images/star-sprite.png) no-repeat -90px 0;
+    width: 30px !important;
+}
+
+.therating label.stars {
+    background: transparent url(../../assets/images/star-sprite-big.png) no-repeat -155px 0;
+    width: 40px !important;
+	height: 40px !important;
+}
+
+.therating input[type="radio"], .therating label.stars {
+    float: right;
+    line-height: 30px;
+    height: 30px;
+}
+
+span + input[type=radio] + label, legend + input[type=radio] + label {
+    clear: right;
+    margin-right: 0px;
+    counter-reset: checkbox;
+}
+
+.therating label {
+    text-indent: -100px;
+    width: 40px !important;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.therating input[type="radio"] {
+    padding-right: 4px;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 10px;}
+
+input[type=radio] {
+    width: auto;
+    margin-right: 5px;}
+
+
+.therating label.stars:hover ~ label.stars, .therating label.stars:hover, .therating input[type=radio][name=rating]:checked ~ label.stars {
+    
+    counter-increment: checkbox;
+}
+
+
+.comment-reply-title{font-size: 28px;
+    font-weight:bold;
+    color: #155570;
+        margin: 20px 0px;}
+
+#commentform input[type="radio"].error:after{width: 15px;
+        height: 14px;
+        border-radius: 14px;
+        top: -4px;
+        left: -1px;
+        position: relative;
+       /* background-color: red;*/
+        content: '';
+        display: inline-block;
+        visibility: visible;
+       }
+
+
+#commentform input[type="checkbox"].error:after{width: 14px;
+        height: 14px;
+        top: -4px;
+        left: -1px;
+        position: relative;
+      /*  background-color: red;*/
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid #ff0000;}
+p.form-submit {
+    text-align: center;}
+
+#commentform input[type="submit"]{    background-color: #155570;}
+#email-error{color:#ff0000; font-weight: normal}
+#wait_approval{color: #35ac19;
+    padding: 18px 16px !important;
+    background: #ffc8c878;
+    font-size: 20px;box-shadow: 0px 0px 16px 0px #ffc8c878
+}
+#bottom_line-error,#terms_condition-error{
+    display:inline;}
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 0%;
+  height: 15px;
+  background-color: #4CAF50;
+}
+
+
